@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper{
+  height: 100vh;
+  width: 100%;
+}
+
+.upper-ber{
+  display: flex;
+
+  .upper-left{
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__new-btn{
+      width: 100px;
+      height: 50px;
+      font-size: 20px;
+      color: yellow;
+      border: 1px solid #111111;
+      text-align: center;
+      margin: auto;
+      cursor: pointer;
+
+      // line-height: 75px;
+    }
+  
+  }
+
+  .upper-main{
+    height: 100px;
+    width: 100%;
+    background-color: green;
+    font-size: 50px;
+
+    &__new-img{
+      font-size: 25px;
+      cursor: pointer;
+    }
+  }
+}
